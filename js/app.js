@@ -80,12 +80,12 @@ function getRamdomNumber(min, max){
 function setColor(element){
     const color = getRandomColor()
     element.style.background = color
-    element.style.boxShadow = ` 0 0 2px ${color}, 0 0 10px ${color} `
+    element.style.boxShadow = ` 0 0 25px ${color}, 0 0 50px ${color} `
 }
 
 function removeColor(element){
     element.style.background = color
-    element.style.boxShadow = `0 0 2px #000 `
+    element.style.boxShadow = `0 0 25px #000 `
 }
 
 function getRandomColor(){
